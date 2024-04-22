@@ -63,7 +63,7 @@ func main() {
 	//fmt.Println("未找到内网IP地址")
 	//os.Exit(1)
 
-	var ip = "45.76.225.49"
+	var ip = "45.76.-----"
 	var startTime = time.Now()
 	region, err := searcher.SearchByStr(ip)
 	if err != nil {
